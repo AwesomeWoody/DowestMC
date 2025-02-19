@@ -44,3 +44,55 @@ header, footer{
 .cright{
     text-align: center;
 }
+
+main{
+    background-color: rgb(111, 162, 255);
+    margin-top: 5px;
+    padding: 30px;
+}
+
+.main{
+    background-color: rgb(84, 139, 240);
+    padding: 10px;
+
+}
+
+.image2, .image5, .image8{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    position: relative;
+    left: 10%;
+}
+
+.image3, .image4, .image6{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    position: relative;
+    bottom: 1242px;
+    right: 10%;
+}
+
+.image1, .image7{
+    display: flex;
+    justify-content: center;
+}
+
+.image7{
+    position: relative;
+    bottom: 1470px;
+    display: flex;
+    justify-content: left;
+}
+
+b{
+    font-weight: 900;
+}
+.main2{
+    text-align: center;
+}
+
+.main3{
+    font-size: 25px;
+}
